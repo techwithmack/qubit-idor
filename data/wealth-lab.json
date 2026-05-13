@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "101",
+      "name": "John Doe",
+      "email": "john@apex.lab",
+      "title": "Managing Director",
+      "totalPortfolioValue": 2450000,
+      "cashBalance": 125000,
+      "allocations": [
+        { "name": "Equities", "value": 52, "color": "#10b981" },
+        { "name": "Fixed Income", "value": 28, "color": "#3b82f6" },
+        { "name": "Alternatives", "value": 12, "color": "#8b5cf6" },
+        { "name": "Cash", "value": 8, "color": "#64748b" }
+      ],
+      "portfolioHistory": [
+        { "date": "2024-07", "value": 2100000 },
+        { "date": "2024-08", "value": 2180000 },
+        { "date": "2024-09", "value": 2210000 },
+        { "date": "2024-10", "value": 2290000 },
+        { "date": "2024-11", "value": 2360000 },
+        { "date": "2024-12", "value": 2410000 },
+        { "date": "2025-01", "value": 2450000 }
+      ],
+      "transactions": [
+        { "id": "t101-1", "date": "2025-01-12", "description": "Buy — Global Growth Fund", "amount": -85000, "type": "trade" },
+        { "id": "t101-2", "date": "2025-01-08", "description": "Dividend — Apex Dividend Strategy", "amount": 12400, "type": "income" },
+        { "id": "t101-3", "date": "2025-01-03", "description": "Wire Transfer — Inbound", "amount": 50000, "type": "transfer" },
+        { "id": "t101-4", "date": "2024-12-20", "description": "Advisory Fee — Q4", "amount": -6200, "type": "fee" }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Jane Smith",
+      "email": "jane@apex.lab",
+      "title": "Partner",
+      "totalPortfolioValue": 875000,
+      "cashBalance": 42000,
+      "allocations": [
+        { "name": "Equities", "value": 45, "color": "#10b981" },
+        { "name": "Fixed Income", "value": 40, "color": "#3b82f6" },
+        { "name": "Cash", "value": 15, "color": "#64748b" }
+      ],
+      "portfolioHistory": [
+        { "date": "2024-07", "value": 780000 },
+        { "date": "2024-08", "value": 795000 },
+        { "date": "2024-09", "value": 802000 },
+        { "date": "2024-10", "value": 820000 },
+        { "date": "2024-11", "value": 848000 },
+        { "date": "2024-12", "value": 862000 },
+        { "date": "2025-01", "value": 875000 }
+      ],
+      "transactions": [
+        { "id": "t102-1", "date": "2025-01-10", "description": "Sell — Tech Concentration Trim", "amount": 32000, "type": "trade" },
+        { "id": "t102-2", "date": "2025-01-04", "description": "Buy — Municipal Bond Ladder", "amount": -45000, "type": "trade" }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Robert Chen",
+      "email": "robert@apex.lab",
+      "title": "Director",
+      "totalPortfolioValue": 12800000,
+      "cashBalance": 890000,
+      "allocations": [
+        { "name": "Equities", "value": 48, "color": "#10b981" },
+        { "name": "Private Equity", "value": 22, "color": "#06b6d4" },
+        { "name": "Fixed Income", "value": 18, "color": "#3b82f6" },
+        { "name": "Real Assets", "value": 8, "color": "#f59e0b" },
+        { "name": "Cash", "value": 4, "color": "#64748b" }
+      ],
+      "portfolioHistory": [
+        { "date": "2024-07", "value": 11200000 },
+        { "date": "2024-08", "value": 11450000 },
+        { "date": "2024-09", "value": 11680000 },
+        { "date": "2024-10", "value": 11920000 },
+        { "date": "2024-11", "value": 12200000 },
+        { "date": "2024-12", "value": 12550000 },
+        { "date": "2025-01", "value": 12800000 }
+      ],
+      "transactions": [
+        { "id": "t103-1", "date": "2025-01-11", "description": "Capital Call — Apex PE Fund IV", "amount": -400000, "type": "transfer" },
+        { "id": "t103-2", "date": "2025-01-06", "description": "Distribution — Apex PE Fund II", "amount": 275000, "type": "income" }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Maria Garcia",
+      "email": "maria@apex.lab",
+      "title": "Vice President",
+      "totalPortfolioValue": 189000,
+      "cashBalance": 12000,
+      "allocations": [
+        { "name": "Equities", "value": 62, "color": "#10b981" },
+        { "name": "Fixed Income", "value": 23, "color": "#3b82f6" },
+        { "name": "Cash", "value": 15, "color": "#64748b" }
+      ],
+      "portfolioHistory": [
+        { "date": "2024-07", "value": 165000 },
+        { "date": "2024-08", "value": 168000 },
+        { "date": "2024-09", "value": 171000 },
+        { "date": "2024-10", "value": 175000 },
+        { "date": "2024-11", "value": 181000 },
+        { "date": "2024-12", "value": 185000 },
+        { "date": "2025-01", "value": 189000 }
+      ],
+      "transactions": [
+        { "id": "t104-1", "date": "2025-01-09", "description": "Recurring Contribution — IRA", "amount": 6000, "type": "transfer" },
+        { "id": "t104-2", "date": "2024-12-28", "description": "Advisory Fee — Q4", "amount": -450, "type": "fee" }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "James Wilson",
+      "email": "james@apex.lab",
+      "title": "Analyst",
+      "totalPortfolioValue": 45200,
+      "cashBalance": 5200,
+      "allocations": [
+        { "name": "Equities", "value": 70, "color": "#10b981" },
+        { "name": "Cash", "value": 30, "color": "#64748b" }
+      ],
+      "portfolioHistory": [
+        { "date": "2024-07", "value": 38000 },
+        { "date": "2024-08", "value": 39500 },
+        { "date": "2024-09", "value": 40800 },
+        { "date": "2024-10", "value": 41800 },
+        { "date": "2024-11", "value": 43200 },
+        { "date": "2024-12", "value": 44100 },
+        { "date": "2025-01", "value": 45200 }
+      ],
+      "transactions": [
+        { "id": "t105-1", "date": "2025-01-02", "description": "Employer Match — 401(k)", "amount": 800, "type": "transfer" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "id": "stmt-101-2024-12",
+      "userId": "101",
+      "month": "December",
+      "year": 2024,
+      "accountLabel": "John Doe — Primary Portfolio",
+      "openingValue": 2360000,
+      "closingValue": 2410000,
+      "netChange": 50000,
+      "highlights": ["Equity sleeve outperformed benchmark by 120 bps", "Tax-loss harvesting executed in international sleeve"]
+    },
+    {
+      "id": "stmt-101-2024-11",
+      "userId": "101",
+      "month": "November",
+      "year": 2024,
+      "accountLabel": "John Doe — Primary Portfolio",
+      "openingValue": 2290000,
+      "closingValue": 2360000,
+      "netChange": 70000,
+      "highlights": ["Added to core fixed income", "Dividend reinvestment in dividend growth strategy"]
+    },
+    {
+      "id": "stmt-102-2024-12",
+      "userId": "102",
+      "month": "December",
+      "year": 2024,
+      "accountLabel": "Jane Smith — Family Trust",
+      "openingValue": 848000,
+      "closingValue": 862000,
+      "netChange": 14000,
+      "highlights": ["Rebalanced toward munis", "Charitable DAF contribution processed"]
+    },
+    {
+      "id": "stmt-103-2024-12",
+      "userId": "103",
+      "month": "December",
+      "year": 2024,
+      "accountLabel": "Robert Chen — Institutional",
+      "openingValue": 12200000,
+      "closingValue": 12550000,
+      "netChange": 350000,
+      "highlights": ["Private equity marks updated", "FX hedge rolled quarterly"]
+    },
+    {
+      "id": "stmt-104-2024-12",
+      "userId": "104",
+      "month": "December",
+      "year": 2024,
+      "accountLabel": "Maria Garcia — Growth Account",
+      "openingValue": 181000,
+      "closingValue": 185000,
+      "netChange": 4000,
+      "highlights": ["IRA contribution received", "Fee waiver applied (promo)"]
+    },
+    {
+      "id": "stmt-105-2024-12",
+      "userId": "105",
+      "month": "December",
+      "year": 2024,
+      "accountLabel": "James Wilson — Starter Portfolio",
+      "openingValue": 43200,
+      "closingValue": 44100,
+      "netChange": 900,
+      "highlights": ["Auto-rebalance to target glidepath"]
+    }
+  ]
+}
